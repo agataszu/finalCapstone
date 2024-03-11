@@ -17,31 +17,22 @@ The provided Python script leverages SpaCy, a Natural Language Processing librar
 - Pandas
 - SpaCy
 - SpaceyTextBlob
-- 
+
 
 ## Installation
 
 1. Clone the repository
 
-2. Install the required dependencies:
+2. Install the required dependencies:   pip install pandas spacy spacytextblob
 
-pip install pandas spacy spacytextblob
-
-3. Download the SpaCy English model:
-
-python -m spacy download en_core_web_sm
+3. Download the SpaCy English model:   python -m spacy download en_core_web_sm
 
 
 ## Usage
 
 1. Place your Amazon product reviews CSV file (named `amazon_product_reviews.csv`) in the project directory.
 
-2. Run the script:
-
-python amazon_reviews_sentiment_analysis.py
-
-csharp
-Copy code
+2. Run the script:  sentiment_analysis.py
 
 3. The script will output the selected reviews, their sentiment analysis results, and the similarity score between them.
 
