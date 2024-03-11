@@ -1,6 +1,7 @@
 # finalCapstone
 Capstone Project from Data Science Bootcamp
 
+Download CSV file from Kaggle -->  https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products
 
 # Amazon Product Reviews Sentiment Analysis
 
